@@ -1,0 +1,136 @@
+/* ============================================
+   BIOZFRESH — Design System Tokens
+   Source: Figma UI/UX P1
+   ============================================ */
+
+:root {
+  /* === Primary Colors === */
+  --primary-blue: #2B2D82;
+  --primary-blue-dark: #1E2060;
+  --primary-blue-light: #3B3D92;
+  --primary-blue-gradient: linear-gradient(135deg, #2B2D82 0%, #1A1A5E 100%);
+
+  /* === Accent Colors === */
+  --accent-green: #4CAF50;
+  --accent-green-light: #66BB6A;
+  --accent-lime: #7CDA24;
+  --accent-purple: #6C3FC5;
+
+  /* === Neutral Colors === */
+  --white: #FFFFFF;
+  --bg-light: #F7F7F7;
+  --bg-gray: #F0F0F0;
+  --gray-100: #F5F5F5;
+  --gray-200: #E5E7EB;
+  --gray-300: #D1D5DB;
+  --gray-400: #9CA3AF;
+  --gray-500: #6B7280;
+  --gray-600: #4B5563;
+  --gray-700: #374151;
+  --gray-800: #1F2937;
+  --gray-900: #111827;
+
+  /* === Semantic Colors === */
+  --text-primary: #1F2937;
+  --text-secondary: #6B7280;
+  --text-white: #FFFFFF;
+  --text-muted: #9CA3AF;
+  --border-color: #E5E7EB;
+  --border-light: #F0F0F0;
+  --divider: #E5E7EB;
+
+  /* === State Colors === */
+  --success: #4CAF50;
+  --warning: #FBBF24;
+  --error: #EF4444;
+  --info: #3B82F6;
+
+  /* === Chat Colors === */
+  --chat-sent: #2B2D82;
+  --chat-received: #E8E8EC;
+  --chat-sent-text: #FFFFFF;
+  --chat-received-text: #1F2937;
+
+  /* === Star Rating === */
+  --star-active: #FBBF24;
+  --star-inactive: #D1D5DB;
+
+  /* === Dark/Auth Background === */
+  --bg-dark: #1A1A2E;
+  --bg-dark-overlay: rgba(26, 26, 46, 0.85);
+
+  /* === Figma UI/UX P1 Brand Colors === */
+  --brand-blue: #332FFA;
+  --brand-purple: #8A84FF;
+  --brand-gray: #A7A7A7;
+
+  /* === Typography === */
+  --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-accent: 'Playfair Display', Georgia, serif;
+  --font-plus-jakarta: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-eb-garamond: 'EB Garamond', Georgia, serif;
+
+  --text-xs: 10px;
+  --text-sm: 12px;
+  --text-base: 14px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 28px;
+  --text-4xl: 32px;
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+
+  /* === Spacing === */
+  --space-xxs: 2px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+  --space-3xl: 32px;
+  --space-4xl: 40px;
+  --space-5xl: 48px;
+
+  /* === Border Radius === */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-3xl: 32px;
+  --radius-full: 9999px;
+
+  /* === Shadows === */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.15);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-nav: 0 -2px 10px rgba(0, 0, 0, 0.08);
+  --shadow-button: 0 4px 12px rgba(43, 45, 130, 0.3);
+
+  /* === Transitions === */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 350ms ease;
+  --transition-spring: 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* === Layout === */
+  --mobile-width: 390px;
+  --bottom-nav-height: 64px;
+  --top-nav-height: 52px;
+  --content-padding: 16px;
+}

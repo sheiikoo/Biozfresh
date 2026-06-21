@@ -1,0 +1,143 @@
+/* === screens2.css — Refined for Figma accuracy === */
+
+/* === Location Screen === */
+.location-screen{background:var(--white)}
+.location-search{padding:10px 16px;display:flex;gap:8px}
+.location-search input{flex:1;padding:9px 12px;border:1.5px solid var(--border-color);border-radius:8px;font-size:12px}
+.location-actions{display:flex;gap:8px;padding:0 16px 10px;font-size:11px}
+.location-actions button{padding:7px 12px;border-radius:var(--radius-full);border:1px solid var(--border-color);font-size:11px;color:var(--text-secondary);display:flex;align-items:center;gap:5px;background:var(--white)}
+.location-actions button svg{width:13px;height:13px}
+.location-saved{padding:14px 16px}
+.location-saved h3{font-size:13px;font-weight:600;margin-bottom:10px}
+.saved-address-item{display:flex;align-items:flex-start;gap:8px;padding:10px 0;border-bottom:1px solid var(--border-light)}
+.saved-address-item svg{width:16px;height:16px;color:var(--primary-blue);flex-shrink:0;margin-top:2px}
+.saved-address-item .address-content{flex:1}
+.saved-address-item .address-label{font-size:13px;font-weight:600;margin-bottom:1px}
+.saved-address-item .address-text{font-size:11px;color:var(--text-secondary)}
+.saved-address-item .address-phone{font-size:10px;color:var(--text-muted);margin-top:1px}
+.saved-address-item .edit-btn{padding:4px;color:var(--primary-blue)}
+.saved-address-item .edit-btn svg{width:15px;height:15px}
+.location-submit{padding:14px 16px;position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:var(--mobile-width);background:var(--white)}
+
+/* === Payment Method Screen === */
+.payment-screen{background:var(--white)}
+.payment-content{padding:16px}
+.payment-logo{text-align:center;margin-bottom:20px;padding:14px;background:var(--bg-light);border-radius:10px}
+.payment-logo span{font-size:18px;font-weight:800;color:var(--primary-blue);letter-spacing:2px}
+.payment-options{margin-bottom:20px}
+.payment-submit{padding:14px 16px}
+
+/* === Thank You Screen === */
+.thankyou-screen{background:var(--white);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:32px 20px;min-height:100vh}
+.thankyou-screen h1{font-size:20px;font-weight:700;margin-bottom:4px;line-height:1.3}
+.thankyou-screen .order-number{font-size:12px;color:var(--accent-green);margin-bottom:14px;font-weight:500}
+.thankyou-screen .thankyou-message{font-size:13px;font-weight:600;margin-bottom:6px}
+.thankyou-screen .thankyou-desc{font-size:11px;color:var(--text-secondary);margin-bottom:6px;line-height:1.55;max-width:260px}
+.thankyou-screen .delivery-info{font-size:11px;color:var(--text-secondary);margin-bottom:28px;display:flex;align-items:center;gap:5px}
+.thankyou-screen .btn{max-width:260px}
+.thankyou-screen .btn-link{color:var(--text-secondary);font-size:12px;margin-top:10px;text-decoration:none;display:block;text-align:center}
+
+/* === My Orders Screen === */
+.myorders-screen{background:var(--bg-light)}
+.myorders-header{padding:0 16px 12px}
+.myorders-header h1{font-size:20px;font-weight:700}
+.myorders-content{padding:0 16px 16px}
+.myorders-section-title{font-size:14px;font-weight:600;margin-bottom:3px}
+.myorders-section-subtitle{font-size:11px;color:var(--text-secondary);margin-bottom:10px}
+.order-history-item{background:var(--white);border-radius:12px;padding:12px;box-shadow:0 1px 6px rgba(0,0,0,0.06);margin-bottom:10px}
+.order-history-item .order-header{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.order-history-item .order-header .avatar{width:32px;height:32px}
+.order-history-item .order-meta{flex:1}
+.order-history-item .order-meta h4{font-size:12px;font-weight:600}
+.order-history-item .order-meta p{font-size:10px;color:var(--text-secondary)}
+.order-history-item .order-details{font-size:11px;color:var(--text-secondary);margin-bottom:8px}
+.order-history-item .order-row{display:flex;justify-content:space-between;padding:2px 0}
+
+/* === Order Detail / Location Map === */
+.order-detail-screen{background:var(--white)}
+.order-detail-map{width:100%;height:240px;position:relative}
+.order-detail-map .map-placeholder{height:100%;border-radius:0}
+.order-detail-info{padding:14px 16px}
+.order-detail-courier{display:flex;align-items:center;gap:10px;padding:10px;background:var(--bg-light);border-radius:10px;margin-bottom:14px}
+.order-detail-courier .courier-details{flex:1}
+.order-detail-courier h4{font-size:13px;font-weight:600}
+.order-detail-courier p{font-size:11px;color:var(--text-secondary)}
+.order-detail-address{display:flex;align-items:flex-start;gap:6px;margin-bottom:14px;font-size:12px}
+.order-detail-address svg{width:14px;height:14px;color:var(--primary-blue);flex-shrink:0;margin-top:2px}
+.order-detail-transaction{margin-bottom:14px}
+.order-detail-transaction h3{font-size:13px;font-weight:600;margin-bottom:6px}
+.transaction-row{display:flex;justify-content:space-between;font-size:12px;padding:3px 0}
+.transaction-row.total{font-weight:700;border-top:1px solid var(--border-color);padding-top:8px;margin-top:4px}
+
+/* === Feedback Screen === */
+.feedback-screen{background:var(--white)}
+.feedback-content{padding:14px 16px}
+.feedback-order-info{background:var(--bg-light);border-radius:10px;padding:12px;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.feedback-order-info .order-id{font-size:12px;font-weight:600}
+.feedback-order-info .order-desc{font-size:10px;color:var(--text-secondary)}
+.feedback-question{font-size:15px;font-weight:600;text-align:center;margin-bottom:14px;color:var(--primary-blue)}
+.feedback-response{font-size:12px;color:var(--text-secondary);text-align:center;margin-bottom:16px;font-style:italic}
+.feedback-tags{margin-bottom:16px}
+.feedback-tags h3{font-size:12px;font-weight:600;margin-bottom:8px}
+.feedback-text{margin-bottom:14px}
+.feedback-text h3{font-size:12px;font-weight:600;margin-bottom:6px}
+.feedback-text .char-count{font-size:10px;color:var(--text-muted);text-align:right;margin-top:3px}
+.feedback-submit{padding:14px 16px}
+.feedback-sent{text-align:center;padding:32px 16px}
+.feedback-sent .success-check{margin-bottom:14px}
+.feedback-sent h2{font-size:18px;font-weight:700;margin-bottom:3px}
+.feedback-sent p{font-size:12px;color:var(--text-secondary);margin-bottom:16px}
+
+/* === Chat / Messages === */
+.chat-screen{background:var(--white)}
+.chat-header-bar{padding:0 16px 10px}
+.chat-header-bar h1{font-size:20px;font-weight:700;margin-bottom:10px}
+.chat-search{display:flex;align-items:center;gap:6px;padding:9px 12px;background:var(--bg-light);border-radius:8px}
+.chat-search svg{width:16px;height:16px;color:var(--text-muted);flex-shrink:0}
+.chat-search input{flex:1;background:none;font-size:12px;border:none;outline:none}
+.chat-list{padding:0 16px}
+
+/* === Chat Conversation === */
+.conversation-screen{background:var(--bg-light);display:flex;flex-direction:column;min-height:100vh}
+.conversation-header{display:flex;align-items:center;gap:8px}
+.conversation-header .avatar{width:32px;height:32px}
+.conversation-header h3{font-size:13px;font-weight:600;flex:1}
+.conversation-messages{flex:1;padding:10px 16px;overflow-y:auto}
+.conversation-date{text-align:center;font-size:10px;color:var(--text-muted);margin:14px 0 10px;font-weight:500}
+.conversation-unread{text-align:center;font-size:10px;color:var(--primary-blue);margin:10px 0;font-weight:600}
+.conversation-input{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:var(--mobile-width);background:var(--white);padding:8px 12px;display:flex;align-items:center;gap:6px;border-top:1px solid var(--border-light)}
+.conversation-input .input-actions{display:flex;gap:2px}
+.conversation-input .input-actions button{width:30px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:var(--radius-full);color:var(--text-muted);background:none;border:none}
+.conversation-input .input-actions button svg{width:18px;height:18px}
+.conversation-input input{flex:1;padding:8px 12px;background:var(--bg-light);border-radius:var(--radius-full);font-size:12px;border:none;outline:none}
+.conversation-input .send-btn{width:34px;height:34px;background:var(--primary-blue);border-radius:var(--radius-full);display:flex;align-items:center;justify-content:center;color:var(--white);border:none;flex-shrink:0}
+.conversation-input .send-btn svg{width:16px;height:16px}
+
+/* === Profile Screen === */
+.profile-screen{background:var(--white)}
+.profile-header{padding:0 16px 16px}
+.profile-header h1{font-size:20px;font-weight:700;text-align:left;margin-bottom:16px}
+.profile-info{display:flex;flex-direction:column;align-items:center;gap:6px;margin-bottom:16px}
+.profile-info .avatar{width:72px;height:72px;border:3px solid var(--primary-blue)}
+.profile-info h3{font-size:15px;font-weight:600;margin-top:4px}
+.profile-detail{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--text-secondary)}
+.profile-detail svg{width:13px;height:13px;color:var(--primary-blue)}
+.profile-sections{padding:0 16px}
+.profile-section{margin-bottom:16px}
+.profile-section h3{font-size:11px;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.profile-logout{display:flex;align-items:center;gap:6px;padding:10px 0;color:var(--error);font-size:13px;font-weight:500;cursor:pointer}
+.profile-logout svg{width:16px;height:16px}
+
+/* === Edit Profile Screen === */
+.edit-profile-screen{background:var(--white)}
+.edit-profile-content{padding:14px 16px}
+.edit-profile-avatar{display:flex;flex-direction:column;align-items:center;gap:10px;margin-bottom:20px}
+.edit-profile-avatar .avatar{width:80px;height:80px;border:3px solid var(--primary-blue)}
+.edit-profile-avatar button{font-size:12px;color:var(--primary-blue);font-weight:500;background:none;border:none}
+.edit-profile-form{margin-bottom:16px}
+.edit-profile-submit{padding:14px 16px}
+
+/* === Success Overlay === */
+.success-overlay{position:fixed;inset:0;background:rgba(255,255,255,0.97);z-index:200;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:32px;animation:fadeIn 250ms ease;cursor:pointer}
+.success-overlay h2{font-size:18px;font-weight:700;margin-bottom:6px;line-height:1.3}
+.success-overlay p{font-size:12px;color:var(--text-secondary)}
